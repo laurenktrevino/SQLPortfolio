@@ -1,0 +1,18 @@
+CREATE TABLE nhl_jerseys (id INTEGER, team_name TEXT, quantity INTEGER, aisle INTEGER, price INTEGER);
+INSERT INTO nhl_jerseys VALUES (1, "LA_Kings", 55, 1, 120);
+INSERT INTO nhl_jerseys VALUES (2, "NJ_Devils", 43, 7, 110);
+INSERT INTO nhl_jerseys VALUES (3, "NY_Rangers", 57, 7, 122);
+INSERT INTO nhl_jerseys VALUES (4, "FL_Panthers", 32, 6, 109);
+INSERT INTO nhl_jerseys VALUES (5, "SJ_Sharks", 38, 1, 111);
+INSERT INTO nhl_jerseys VALUES (6, "SL_Blues", 37, 4, 104);
+INSERT INTO nhl_jerseys VALUES (7, "MN_Wild", 31, 4, 104);
+INSERT INTO nhl_jerseys VALUES (8, "VGS_Knights", 49, 1, 120);
+INSERT INTO nhl_jerseys VALUES (9, "TB_Lightning", 34, 6, 113);
+INSERT INTO nhl_jerseys VALUES (10, "AZ_Coyotes", 28, 2, 98);
+INSERT INTO nhl_jerseys VALUES (11, "BST_Bruins", 57, 7, 125);
+INSERT INTO nhl_jerseys VALUES (12, "CO_Avalance", 26, 3, 112);
+INSERT INTO nhl_jerseys VALUES (13, "DET_Redwings", 44, 5, 127);
+INSERT INTO nhl_jerseys VALUES (14, "CHI_Blackhawks", 51, 5, 134);
+INSERT INTO nhl_jerseys VALUES (15, "ANA_Ducks", 42, 1, 114);
+SELECT * FROM nhl_jerseys WHERE price > 100;
+SELECT * FROM nhl_jerseys WHERE price > 100 AND aisle < 5 ORDER BY price;
