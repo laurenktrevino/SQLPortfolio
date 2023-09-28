@@ -1,4 +1,5 @@
 CREATE TABLE nhl_jerseys (id INTEGER, team_name TEXT, quantity INTEGER, aisle INTEGER, price INTEGER);
+
 INSERT INTO nhl_jerseys VALUES (1, "LA_Kings", 55, 1, 120);
 INSERT INTO nhl_jerseys VALUES (2, "NJ_Devils", 43, 7, 110);
 INSERT INTO nhl_jerseys VALUES (3, "NY_Rangers", 57, 7, 122);
