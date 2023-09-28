@@ -14,5 +14,6 @@ INSERT INTO nhl_jerseys VALUES (12, "CO_Avalance", 26, 3, 112);
 INSERT INTO nhl_jerseys VALUES (13, "DET_Redwings", 44, 5, 127);
 INSERT INTO nhl_jerseys VALUES (14, "CHI_Blackhawks", 51, 5, 134);
 INSERT INTO nhl_jerseys VALUES (15, "ANA_Ducks", 42, 1, 114);
-SELECT * FROM nhl_jerseys WHERE price > 100;
-SELECT * FROM nhl_jerseys WHERE price > 100 AND aisle < 5 ORDER BY price;
+
+SELECT * FROM nhl_jerseys ORDER BY price;
+SELECT AVG(price) FROM nhl_jerseys;
